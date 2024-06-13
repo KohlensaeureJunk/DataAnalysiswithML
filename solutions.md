@@ -80,6 +80,27 @@ for par, grad in [(w1, dw1), (w2, dw2), (b1, db1), (b2, db2)]:
     par.add_(-lr * grad)
 ```
 
+For visualization we also need to include the bias in the forward pass, so replace the first argument of `visualize_classifier` by
+
+```python
+lambda x: torch.relu(torch.tensor(x, dtype=torch.float32) @ w1 + b1) @ w2 + b2
+```
+
+**Alternative solution**: add a constant "bias" input
+
+```python
+def with_bias(X):
+    return torch.cat([X, torch.ones(X.shape[0], 1)], dim=1)
+```
+
+If we replace the input `X` (both in the training loop and in the forward pass for visualization) by `with_bias(X)` we should get a similar effect.
+
+To make this work the first weight matrix needs to have 3 rows:
+
+```python
+w1 = torch.randn(3, neurons) * 0.1
+```
+
 # Exercise 4
 
 Modify the forward pass to include the sigmoid activation
