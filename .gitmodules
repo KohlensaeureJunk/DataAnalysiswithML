@@ -1,0 +1,24 @@
+[submodule "01-python-data-science-intro"]
+	path = 01-python-data-science-intro
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/01-python-data-science-intro.git
+[submodule "02-distributions-and-random-numbers"]
+	path = 02-distributions-and-random-numbers
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/02-distributions-and-random-numbers
+[submodule "03-fitting"]
+	path = 03-fitting
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/03-fitting
+[submodule "04-knn-and-sklearn-simple-models"]
+	path = 04-knn-and-sklearn-simple-models
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/04-knn-and-sklearn-simple-models
+[submodule "05-validation-and-metrics"]
+	path = 05-validation-and-metrics
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/05-validation-and-metrics
+[submodule "06-trees-ensembles-boosting"]
+	path = 06-trees-ensembles-boosting
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/06-trees-ensembles-boosting
+[submodule "07-neural-networks-and-backpropagation"]
+	path = 07-neural-networks-and-backpropagation
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/07-neural-networks-and-backpropagation
+[submodule "08-neural-networks-higgs"]
+	path = 08-neural-networks-higgs
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/08-neural-networks-higgs/
