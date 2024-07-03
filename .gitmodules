@@ -22,3 +22,9 @@
 [submodule "08-neural-networks-higgs"]
 	path = 08-neural-networks-higgs
 	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/08-neural-networks-higgs/
+[submodule "09-graph-net-top"]
+	path = 09-graph-net-top
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/09-graph-net-top
+[submodule "10-lorentz-networks"]
+	path = 10-lorentz-networks
+	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/10-lorentz-networks
