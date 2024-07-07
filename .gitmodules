@@ -1,30 +1,30 @@
 [submodule "01-python-data-science-intro"]
 	path = 01-python-data-science-intro
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/01-python-data-science-intro.git
+	url = https://github.com/KohlensaeureJunk/01-python-data-science-intro.git
 [submodule "02-distributions-and-random-numbers"]
 	path = 02-distributions-and-random-numbers
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/02-distributions-and-random-numbers
+	url = https://github.com/KohlensaeureJunk/02-distributions-and-random-numbers.git
 [submodule "03-fitting"]
 	path = 03-fitting
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/03-fitting
+	url = hhttps://github.com/KohlensaeureJunk/03-fitting.git
 [submodule "04-knn-and-sklearn-simple-models"]
 	path = 04-knn-and-sklearn-simple-models
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/04-knn-and-sklearn-simple-models
+	url = https://github.com/KohlensaeureJunk/04-knn-and-sklearn-simple-models.git
 [submodule "05-validation-and-metrics"]
 	path = 05-validation-and-metrics
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/05-validation-and-metrics
+	url = https://github.com/KohlensaeureJunk/05-validation-and-metrics.git
 [submodule "06-trees-ensembles-boosting"]
 	path = 06-trees-ensembles-boosting
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/06-trees-ensembles-boosting
+	url = https://github.com/KohlensaeureJunk/06-trees-ensembles-boosting.git
 [submodule "07-neural-networks-and-backpropagation"]
 	path = 07-neural-networks-and-backpropagation
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/07-neural-networks-and-backpropagation
+	url = https://github.com/KohlensaeureJunk/07-neural-networks-and-backpropagation.git
 [submodule "08-neural-networks-higgs"]
 	path = 08-neural-networks-higgs
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/08-neural-networks-higgs/
+	url = https://github.com/KohlensaeureJunk/08-neural-networks-higgs.git
 [submodule "09-graph-net-top"]
 	path = 09-graph-net-top
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/09-graph-net-top
+	url = https://github.com/KohlensaeureJunk/09-graph-net-top.git
 [submodule "10-lorentz-networks"]
 	path = 10-lorentz-networks
-	url = https://gitlab.physik.uni-muenchen.de/damlpartphys24/10-lorentz-networks
+	url = https://github.com/KohlensaeureJunk/10-lorentz-networks.git
