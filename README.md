@@ -1,6 +1,6 @@
 # 11 Unsupervised ML
 
-Example notebooks for for unsupervised ML
+Example notebooks for unsupervised ML
 - Clustering
 - Dimensionality Reduction
 - Anomaly detection
