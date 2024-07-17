@@ -30,4 +30,4 @@
 	url = https://github.com/KohlensaeureJunk/10-lorentz-networks.git
 [submodule "11-unsupervised-ml"]
 	path = 11-unsupervised-ml
-	url = https://github.com/KohlensaeureJunk/11-unsupervised-ml.git
+	url = git@github.com:KohlensaeureJunk/11-unsupervised-ml.git
