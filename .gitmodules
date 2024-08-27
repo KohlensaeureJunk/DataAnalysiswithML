@@ -1,6 +1,3 @@
-[submodule "04-knn-and-sklearn-simple-models"]
-	path = 04-knn-and-sklearn-simple-models
-	url = git@github.com:KohlensaeureJunk/04-knn-and-sklearn-simple-models.git
 [submodule "05-validation-and-metrics"]
 	path = 05-validation-and-metrics
 	url = git@github.com:KohlensaeureJunk/05-validation-and-metrics.git
