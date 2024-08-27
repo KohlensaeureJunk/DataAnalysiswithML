@@ -1,6 +1,3 @@
-[submodule "01-python-data-science-intro"]
-	path = 01-python-data-science-intro
-	url = git@github.com:KohlensaeureJunk/01-python-data-science-intro.git
 [submodule "02-distributions-and-random-numbers"]
 	path = 02-distributions-and-random-numbers
 	url = git@github.com:KohlensaeureJunk/02-distributions-and-random-numbers.git
