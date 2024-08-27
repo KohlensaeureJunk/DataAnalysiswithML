@@ -1,6 +1,3 @@
-[submodule "03-fitting"]
-	path = 03-fitting
-	url = git@github.com:KohlensaeureJunk/03-fitting.git
 [submodule "04-knn-and-sklearn-simple-models"]
 	path = 04-knn-and-sklearn-simple-models
 	url = git@github.com:KohlensaeureJunk/04-knn-and-sklearn-simple-models.git
