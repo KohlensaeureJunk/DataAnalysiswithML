@@ -37,4 +37,8 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
 
     # Remove the submodule's remote
     git remote remove $path
+
+    # Remove the temporary branch
+    git branch --delete "${path}_branch"
+
 done
