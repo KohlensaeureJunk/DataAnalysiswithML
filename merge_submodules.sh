@@ -26,6 +26,7 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     git mv $cont $path
 
     # Commit the changes
+    git add .
     git commit -m "Merged ${path} into main repository"
 
     # Switch back to the main branch
