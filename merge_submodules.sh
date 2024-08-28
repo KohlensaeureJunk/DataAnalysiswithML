@@ -9,6 +9,7 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     # Remove the submodule from the repository
     git rm -f $path
     rm -rf .git/modules/$path
+    git commit -m "removed ${submodule}"
 
     # Add the submodule as a remote
     git remote add $path $url
@@ -17,7 +18,6 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     git fetch $path
 
     # Create a branch from the submodule's main branch
-    git stash
     git checkout -b "${path}_branch" $path/main
 
     # Move the submodule's files to the appropriate directory
@@ -41,7 +41,5 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
 
     # Remove the temporary branch
     git branch -D "${path}_branch"
-
-    git stash pop
 
 done
