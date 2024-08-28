@@ -14,10 +14,11 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     git remote add $path $url
 
     # Fetch the submodule's history
-    git fetch $submodule
+    git fetch $path
 
     # Create a branch from the submodule's main branch
-    git checkout -b "${path}_branch" $submodule/main
+    git stash
+    git checkout -b "${path}_branch" $path/main
 
     # Move the submodule's files to the appropriate directory
     mkdir -p $path
@@ -30,7 +31,8 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
 
     # Switch back to the main branch
     git checkout master
-
+    git stash pop
+    git add .
     # Merge the submodule branch into the main branch
     git merge --allow-unrelated-histories "${path}_branch" -m "merge ${path}"
 
