@@ -25,15 +25,12 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     mkdir -p $path
     git mv $cont $path
 
-    # Commit the changes
-    git add .
+    # Commit the changes.
     echo "Committing to temporary branch"
     git commit -m "Merged ${path} into main repository"
 
     # Switch back to the main branch
     git checkout master
-    git stash pop
-    git add .
     echo "Merging branches"
 
     # Merge the submodule branch into the main branch
@@ -44,5 +41,7 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
 
     # Remove the temporary branch
     git branch -D "${path}_branch"
+
+    git stash pop
 
 done
