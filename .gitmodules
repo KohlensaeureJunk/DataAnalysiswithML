@@ -1,6 +1,3 @@
-[submodule "08-neural-networks-higgs"]
-	path = 08-neural-networks-higgs
-	url = git@github.com:KohlensaeureJunk/08-neural-networks-higgs.git
 [submodule "09-graph-net-top"]
 	path = 09-graph-net-top
 	url = git@github.com:KohlensaeureJunk/09-graph-net-top.git
