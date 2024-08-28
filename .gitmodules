@@ -1,6 +1,3 @@
-[submodule "07-neural-networks-and-backpropagation"]
-	path = 07-neural-networks-and-backpropagation
-	url = git@github.com:KohlensaeureJunk/07-neural-networks-and-backpropagation.git
 [submodule "08-neural-networks-higgs"]
 	path = 08-neural-networks-higgs
 	url = git@github.com:KohlensaeureJunk/08-neural-networks-higgs.git
