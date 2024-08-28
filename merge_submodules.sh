@@ -23,7 +23,7 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     # Move the submodule's files to the appropriate directory
     mkdir -p $path
     shopt -s extglob
-    git mv !("${path}") $path
+    git mv !"${path}" $path
     shopt -u extglob
 
     # Commit the changes
