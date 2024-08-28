@@ -21,10 +21,9 @@ for submodule in $(git config --file .gitmodules --name-only --get-regexp path |
     git checkout -b "${path}_branch" $path/main
 
     # Move the submodule's files to the appropriate directory
+    cont=$(ls .)
     mkdir -p $path
-    shopt -s extglob
-    git mv !"${path}" $path
-    shopt -u extglob
+    git mv $cont $path
 
     # Commit the changes
     git commit -m "Merged ${path} into main repository"
